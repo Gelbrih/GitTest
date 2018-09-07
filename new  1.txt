@@ -1,0 +1,361 @@
+Virel
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+320-480-600-640-768-720-800-900-960-1024
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+//css code here
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 990px) {
+  /* Styles */
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  /* Styles */
+}
+
+
+jQuery(document).ready(function(){
+// тут тихо и уютно
+});
+
+ИЛИ
+
+(function($, undefined){
+// тут тихо и уютно
+// мы всегда будем уверены, что $ === jQuery
+// a undefined не переопределен ;)
+})(jQuery);
+
+
+register_sidebar(array(
+	'name'=>'Блок справа',
+	'id'=>'sidebar',
+	'before_widget' => '<div class="sidebar_widget %2$s">',
+	'after_widget' => '</div>'
+));
+
+
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType text/javascript "access plus 7 days"
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType image/gif "access plus 7 days"
+  ExpiresByType image/jpeg "access plus 7 days"
+  ExpiresByType image/png "access plus 7 days"
+</IfModule>
+
+
+
+UPDATE njam1_content
+`introtext`SET `introtext` = REPLACE(`introtext`, 'http://www.dsprom.ru/catalog/item.php?cdid=cdid2=307&itid=2042', 
+'index.php?option=com_content&view=article&id=11index.php?option=com_content&view=article&id=134');
+
+UPDATE njam1_content
+`introtext`SET `introtext` = REPLACE(`introtext`,
+ 'http://www.dsprom.ru/catalog/item.php?cdid=cdid2=243&amp;itid=1166', 'index.php?option=com_content&view=article&id=11index.php?option=com_content&view=article&id=428');
+
+21.02.14
+
+(?°-°)????? ( ?°?°)? ????
+
+<?php error_reporting( E_ERROR ); ?>
+
+
+ <script type="text/javascript">jQuery.noConflict();</script>
+
+
+
+SELECT `introtext` 
+FROM njam1_content
+WHERE  `introtext` LIKE  '%http://www.dsprom.ru/images/items/%'
+
+UPDATE njam1_content
+`introtext`SET `introtext` = REPLACE(`introtext`,
+ 'bgcolor="#E9E6E3"', 'bgcolor="#FFFFFF"');
+
+
+ <?php if (JFactory::getURI()->toString() == JURI::base()) : ?>
+		<style type="text/css">
+    		#phocagallery {
+  				background-image:url(templates/tattoo/images/gallery_bg.png);
+  			}
+       </style>
+ <?php endif; ?>
+
+&nbsp;
+
+<!--nextpage-->
+
+http://carforma.de/files/photo/big/
+
+
+a class="fancybox small" href="http://carforma/wp-content/uploads/2014/07/171.jpg" rel="example_group"><img class="img1" src="http://carforma/wp-content/uploads/2014/07/171.jpg" alt="" width="144px;" /></a>
+
+I6RoBjKj
+
+ text-shadow: -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white; 
+
+
+abaimastriuc@mail.ru
+
+@font-face {
+	font-family: 'TagirCTT';
+	src:url('fonts/TagirCTT.eot');
+	src:url('fonts/TagirCTT.eot?#iefix') format('embedded-opentype'),
+	url('fonts/TagirCTT.woff') format('woff'),
+	url('fonts/TagirCTT.ttf') format('truetype'),
+	url('fonts/TagirCTT.svg#TagirCTT') format('svg');
+	font-weight:normal;
+	font-style:normal;
+	}
+@font-face {
+font-family: "CenturyGothic-Bold";
+src: url("../fonts/CenturyGothic-Bold.eot"); 
+src: url("../fonts/CenturyGothic-Bold.eot?#iefix") format("embedded-opentype"), 
+url("../fonts/CenturyGothic-Bold.woff") format("woff"), 
+url("../fonts/CenturyGothic-Bold.ttf") format("truetype"),
+url("../fonts/CenturyGothic-Bold.svg#CenturyGothic-Bold") format("svg");
+font-weight:normal;
+font-style:normal;
+}
+
+<?php error_reporting( E_ERROR ); ?>
+
+
+<?php
+
+defined('_JEXEC') or die('Restricted access');
+require_once (JPATH_SITE . DS . 'components' . DS . 'com_content' . DS . 'helpers' . DS . 'route.php');
+require_once (JPATH_SITE . DS . 'plugins' . DS . 'content' . DS . 'emailcloak.php');
+
+$template_path = JURI::base() . 'templates/custom/';
+
+$menu = & JSite::getMenu();
+$is_main_page = $menu->getActive() == $menu->getDefault();
+
+/*
+$document=& JFactory::getDocument();
+$plugin =& JPluginHelper::getPlugin('system', 'mtupgrade');
+if(is_object($plugin)) $slimbox_ver = 'slimbox-1.71a';
+else $slimbox_ver = 'slimbox-1.58';
+$slimboxJs = JURI::base().'components/com_djcatalog2/theme/js/'.$slimbox_ver.'/js/slimbox.js';
+$slimboxCss = JURI::base().'components/com_djcatalog2/theme/js/'.$slimbox_ver.'/css/slimbox.css';
+$document->addScript($slimboxJs);
+$document->addStyleSheet($slimboxCss);
+*/
+
+
+function GetSingleMenuLink($menutype, $menu_item = 0)
+{
+	$menu = &JSite::getMenu();
+	$menuArray = $menu->getItems('menutype', $menutype, false);
+
+	if (count($menuArray) <= $menu_item)
+		return '#';
+
+	//return JURI::base() .'/'. $menuArray[$menu_item]->link;
+	return $menuArray[$menu_item]->link;
+}
+
+function PrintUpMenu()
+{
+	$menu = &JSite::getMenu();
+	$menuArray = $menu->getItems('menutype', 'upmenu', false);
+
+	echo "<li><a href=\"".JURI::base()."\">Home</a></li>";
+
+	$count = count($menuArray);
+	for ($i = 0; $i < $count; $i++)
+	{
+		$item = $menuArray[$i];
+		echo "<li><a href=\"$item->link\">$item->name</a></li>";
+	}
+
+	$add = 'rel="sidebar"  onClick="window.external.addFavorite(location.href, \'EnglishForFun\'); return false;"';
+	echo "<li><a $add href=\"".JURI::base()."\">Favourites</a></li>";
+}
+
+function PrintContentMenu()
+{
+	$menu = &JSite::getMenu();
+	$menuArray = $menu->getItems('menutype', 'contentmenu', false);
+
+	$count = count($menuArray);
+	for ($i = 0; $i < $count; $i++)
+	{
+		$item = $menuArray[$i];
+		echo "<li><a href=\"$item->link\">$item->name</a></li>";
+	}
+}
+?>
+
+
+
+
+
+ <?
+      if ($_SERVER['REQUEST_URI'] != '/'){
+   ?>
+  
+  <style type="text/css">
+    #content {
+
+  border-left:none;
+
+  padding-left:0px;
+
+  }
+  
+    </style>
+  
+  <? } ?>
+  
+
+
+<script src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/jquery-1.7.2.js"></script>
+  <script src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/lightbox/js/lightbox.js"></script>
+  <link href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/lightbox/css/lightbox.css" rel="stylesheet" />
+  
+  <script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/highslide/highslide/highslide-with-html.js"></script>
+  <link rel="stylesheet" type="text/css" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/highslide/highslide/highslide.css" />
+  <script type="text/javascript">
+    hs.graphicsDir = '<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/highslide/highslide/graphics/';
+    hs.outlineType = 'rounded-white';
+    hs.showCredits = false;
+    hs.width = 980;
+    hs.height = 600;
+  </script>
+  
+  <script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/jwplayer/jwplayer.js"></script>
+  <script type="text/javascript">
+    jwplayer("videonano").setup({
+        file: "/images/NanoDoctor.flv",
+        image: "/images/video1.jpg",
+      width:'228',
+      height:'178'
+    });
+</script>
+
+
+
+<a data-lightbox="" href="#myblok_name"><img alt="" border="0" src="images/video.jpg" /></a></p>
+<div style="display: none;">
+<!--Контейнер скрывающий блок -->	<div id="myblok_name" style="width: 325px; height: 245px; overflow: auto; color: #000000;">
+		<object data="media/media/video/player.swf" height="240" type="application/x-shockwave-flash" width="320"><param name="allowfullscreen" value="true" /><param name="flashvars" value="width=320&amp;height=240&amp;image=/media/media/video/video.jpg&amp;file=/media/media/video/video.flv" /><param name="quality" value="high" /><param name="src" value="media/media/video/player.swf" /></object></div>
+</div>
+
+
+
+<div style="float:right; width:240px;">
+<div style="float:left;">
+<a data-lightbox="" href="#myblok_name4" style="float:left;"><img class="img" src="/images/3-1.jpg" style="float:left; margin-bottom:24px" /></a>
+<span style="display:inline-block;margin-top:28px; font-weight:bold; color:#a2a2a2;">Рисунок 1</span> <a class="link" data-lightbox="" href="#myblok_name4">увеличить</a>
+</div>
+<div style="display: none;">
+<!--Контейнер скрывающий блок -->	<div id="myblok_name4" style="style="width: 325px; height: 245px; overflow: auto; color: #000000;">
+		<img src="/images/3-1-1.jpg" /></div>
+</div>
+<div style="float:left;">
+<a data-lightbox="" href="#myblok_name5" style="float:left;"><img class="img" src="/images/3-2.jpg" style="float:left; margin-bottom:24px" /></a>
+<span style="display:inline-block;margin-top:28px; font-weight:bold; color:#a2a2a2;">Рисунок 2</span> <a class="link" data-lightbox="" href="#myblok_name5">увеличить</a>
+</div>
+<div style="display: none;">
+<!--Контейнер скрывающий блок -->	<div id="myblok_name5" style="style="width: 325px; height: 245px; overflow: auto; color: #000000;">
+		<img src="/images/3-2-1.jpg" /></div>
+</div>
+
+</div>
+
+
+
+<div style="float:right; width:240px;">
+		<a href="/images/3-1-1.jpg" rel="lightbox"><img class="img" src="/images/3-1.jpg" style="float:left; margin-bottom:24px" /></a> 
+<span style="display:inline-block;margin-top:28px; font-weight:bold; color:#a2a2a2;">Рисунок 1</span> <a class="link" href="/images/3-1-1.jpg" rel="lightbox">увеличить</a>
+ <a href="/images/3-2-1.jpg" rel="lightbox"><img class="img" src="/images/3-2.jpg" style="float:left" /></a> 
+<span style="display:inline-block;margin-top:148px; font-weight:bold; color:#a2a2a2;">Рисунок 2</span> 
+<a class="link" href="/images/3-2-1.jpg" rel="lightbox">увеличить</a></div>
+
+
+
+
+
+
+
+  <?php    
+    if(!preg_match("/\w\/\d\d/i", $_SERVER['REQUEST_URI']) && !preg_match("/\w\/\d\d\d/i", $_SERVER['REQUEST_URI'])) {
+   ?> 
+     
+      <div class="sidebar" id="sideLeft">
+        <jdoc:include type="modules" name="sideLeft" style="xhtml" />
+      </div>
+      <!-- end SideLeft -->
+  <? } ?>
+
+
+
+
+// выезжающий текст при наведении
+<a class="gallery__item" href="#">
+                        <img src="img/gallery-5.jpg" alt="#">
+                        <span class="gallery__title">Название фото</span>
+                    </a>
+
+.gallery__item:before {
+  content: "";
+  background: #426580;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s linear;
+  -moz-transition: opacity 0.25s linear;
+  -o-transition: opacity 0.25s linear;
+  transition: opacity 0.25s linear;
+}
+.gallery__item:hover:before {
+  opacity: 0.7;
+}
+.gallery__title {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  padding-left: 20px;
+  opacity: 0;
+  -webkit-transform: translateX(-300px);
+  -moz-transform: translateX(-300px);
+  -ms-transform: translateX(-300px);
+  -o-transform: translateX(-300px);
+  transform: translateX(-300px);
+  -webkit-transition: all 0.2s linear 0ms;
+  -moz-transition: all 0.2s linear 0ms;
+  -o-transition: all 0.2s linear 0ms;
+  transition: all 0.2s linear 0ms;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.gallery__item:hover .gallery__title {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+     -moz-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+       -o-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+
+
+
+UPDATE wp_posts SET `post_content`
+= REPLACE (`post_content`,
+'OriginalText',
+'ReplacedText');
