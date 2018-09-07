@@ -1,10 +1,11 @@
-Virel
+﻿Virel
 ывап впва
 пв пвап
 ва пвап
 вап впвап
 вап вап вап
 вап вапав п
+
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 320-480-600-640-768-720-800-900-960-1024
 @media only screen
