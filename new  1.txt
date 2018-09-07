@@ -1,5 +1,10 @@
 Virel
-
+С‹РІР°Рї РІРїРІР°
+РїРІ РїРІР°Рї
+РІР° РїРІР°Рї
+РІР°Рї РІРїРІР°Рї
+РІР°Рї РІР°Рї РІР°Рї
+РІР°Рї РІР°РїР°РІ Рї
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 320-480-600-640-768-720-800-900-960-1024
 @media only screen
@@ -20,20 +25,21 @@ and (max-device-width : 1024px) {
 
 
 jQuery(document).ready(function(){
-// тут тихо и уютно
+// ГІГіГІ ГІГЁГµГ® ГЁ ГіГѕГІГ­Г®
 });
 
-ИЛИ
+Г€Г‹Г€
 
 (function($, undefined){
-// тут тихо и уютно
-// мы всегда будем уверены, что $ === jQuery
-// a undefined не переопределен ;)
+// ГІГіГІ ГІГЁГµГ® ГЁ ГіГѕГІГ­Г®
+// Г¬Г» ГўГ±ГҐГЈГ¤Г  ГЎГіГ¤ГҐГ¬ ГіГўГҐГ°ГҐГ­Г», Г·ГІГ® $ === jQuery
+// a undefined Г­ГҐ ГЇГҐГ°ГҐГ®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ ;)
 })(jQuery);
-
+
+
 
 register_sidebar(array(
-	'name'=>'Блок справа',
+	'name'=>'ГЃГ«Г®ГЄ Г±ГЇГ°Г ГўГ ',
 	'id'=>'sidebar',
 	'before_widget' => '<div class="sidebar_widget %2$s">',
 	'after_widget' => '</div>'
@@ -63,7 +69,7 @@ UPDATE njam1_content
 
 21.02.14
 
-(?°-°)????? ( ?°?°)? ????
+(?В°-В°)????? ( ?В°?В°)? ????
 
 <?php error_reporting( E_ERROR ); ?>
 
@@ -247,7 +253,7 @@ function PrintContentMenu()
 
 <a data-lightbox="" href="#myblok_name"><img alt="" border="0" src="images/video.jpg" /></a></p>
 <div style="display: none;">
-<!--Контейнер скрывающий блок -->	<div id="myblok_name" style="width: 325px; height: 245px; overflow: auto; color: #000000;">
+<!--ГЉГ®Г­ГІГҐГ©Г­ГҐГ° Г±ГЄГ°Г»ГўГ ГѕГ№ГЁГ© ГЎГ«Г®ГЄ -->	<div id="myblok_name" style="width: 325px; height: 245px; overflow: auto; color: #000000;">
 		<object data="media/media/video/player.swf" height="240" type="application/x-shockwave-flash" width="320"><param name="allowfullscreen" value="true" /><param name="flashvars" value="width=320&amp;height=240&amp;image=/media/media/video/video.jpg&amp;file=/media/media/video/video.flv" /><param name="quality" value="high" /><param name="src" value="media/media/video/player.swf" /></object></div>
 </div>
 
@@ -256,18 +262,18 @@ function PrintContentMenu()
 <div style="float:right; width:240px;">
 <div style="float:left;">
 <a data-lightbox="" href="#myblok_name4" style="float:left;"><img class="img" src="/images/3-1.jpg" style="float:left; margin-bottom:24px" /></a>
-<span style="display:inline-block;margin-top:28px; font-weight:bold; color:#a2a2a2;">Рисунок 1</span> <a class="link" data-lightbox="" href="#myblok_name4">увеличить</a>
+<span style="display:inline-block;margin-top:28px; font-weight:bold; color:#a2a2a2;">ГђГЁГ±ГіГ­Г®ГЄ 1</span> <a class="link" data-lightbox="" href="#myblok_name4">ГіГўГҐГ«ГЁГ·ГЁГІГј</a>
 </div>
 <div style="display: none;">
-<!--Контейнер скрывающий блок -->	<div id="myblok_name4" style="style="width: 325px; height: 245px; overflow: auto; color: #000000;">
+<!--ГЉГ®Г­ГІГҐГ©Г­ГҐГ° Г±ГЄГ°Г»ГўГ ГѕГ№ГЁГ© ГЎГ«Г®ГЄ -->	<div id="myblok_name4" style="style="width: 325px; height: 245px; overflow: auto; color: #000000;">
 		<img src="/images/3-1-1.jpg" /></div>
 </div>
 <div style="float:left;">
 <a data-lightbox="" href="#myblok_name5" style="float:left;"><img class="img" src="/images/3-2.jpg" style="float:left; margin-bottom:24px" /></a>
-<span style="display:inline-block;margin-top:28px; font-weight:bold; color:#a2a2a2;">Рисунок 2</span> <a class="link" data-lightbox="" href="#myblok_name5">увеличить</a>
+<span style="display:inline-block;margin-top:28px; font-weight:bold; color:#a2a2a2;">ГђГЁГ±ГіГ­Г®ГЄ 2</span> <a class="link" data-lightbox="" href="#myblok_name5">ГіГўГҐГ«ГЁГ·ГЁГІГј</a>
 </div>
 <div style="display: none;">
-<!--Контейнер скрывающий блок -->	<div id="myblok_name5" style="style="width: 325px; height: 245px; overflow: auto; color: #000000;">
+<!--ГЉГ®Г­ГІГҐГ©Г­ГҐГ° Г±ГЄГ°Г»ГўГ ГѕГ№ГЁГ© ГЎГ«Г®ГЄ -->	<div id="myblok_name5" style="style="width: 325px; height: 245px; overflow: auto; color: #000000;">
 		<img src="/images/3-2-1.jpg" /></div>
 </div>
 
@@ -277,10 +283,10 @@ function PrintContentMenu()
 
 <div style="float:right; width:240px;">
 		<a href="/images/3-1-1.jpg" rel="lightbox"><img class="img" src="/images/3-1.jpg" style="float:left; margin-bottom:24px" /></a> 
-<span style="display:inline-block;margin-top:28px; font-weight:bold; color:#a2a2a2;">Рисунок 1</span> <a class="link" href="/images/3-1-1.jpg" rel="lightbox">увеличить</a>
+<span style="display:inline-block;margin-top:28px; font-weight:bold; color:#a2a2a2;">ГђГЁГ±ГіГ­Г®ГЄ 1</span> <a class="link" href="/images/3-1-1.jpg" rel="lightbox">ГіГўГҐГ«ГЁГ·ГЁГІГј</a>
  <a href="/images/3-2-1.jpg" rel="lightbox"><img class="img" src="/images/3-2.jpg" style="float:left" /></a> 
-<span style="display:inline-block;margin-top:148px; font-weight:bold; color:#a2a2a2;">Рисунок 2</span> 
-<a class="link" href="/images/3-2-1.jpg" rel="lightbox">увеличить</a></div>
+<span style="display:inline-block;margin-top:148px; font-weight:bold; color:#a2a2a2;">ГђГЁГ±ГіГ­Г®ГЄ 2</span> 
+<a class="link" href="/images/3-2-1.jpg" rel="lightbox">ГіГўГҐГ«ГЁГ·ГЁГІГј</a></div>
 
 
 
@@ -301,10 +307,10 @@ function PrintContentMenu()
 
 
 
-// выезжающий текст при наведении
+// ГўГ»ГҐГ§Г¦Г ГѕГ№ГЁГ© ГІГҐГЄГ±ГІ ГЇГ°ГЁ Г­Г ГўГҐГ¤ГҐГ­ГЁГЁ
 <a class="gallery__item" href="#">
                         <img src="img/gallery-5.jpg" alt="#">
-                        <span class="gallery__title">Название фото</span>
+                        <span class="gallery__title">ГЌГ Г§ГўГ Г­ГЁГҐ ГґГ®ГІГ®</span>
                     </a>
 
 .gallery__item:before {
