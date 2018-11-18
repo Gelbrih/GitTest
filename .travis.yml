@@ -3,7 +3,4 @@ sudo: false
 language: node_js
 node_js:
   - "iojs"
-  - "9"
-  branches:
-  only:
-    - master
+  - "7"
